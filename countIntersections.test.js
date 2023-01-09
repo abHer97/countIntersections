@@ -20,4 +20,14 @@ describe('countIntersections test suite', () => {
 
       expect(result).toEqual(expectedIntersections);
    });
+
+   it('should calculate correctly the intersections of segments from second example', () => {
+      const startsAt = [3, 1, 5];
+      const endsAt = [3, 5, 6];
+      const expectedIntersections = [1, 2, 1];
+
+      const result = countIntersections(startsAt, endsAt);
+
+      expect(result).toEqual(expectedIntersections);
+   });
 });
