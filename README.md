@@ -11,3 +11,7 @@ npm run test
 ```
 
 Con esto se podra ver en la consola que los 3 test predefinidos se ejecutan correctamente.
+
+## Extra
+
+Existe una rama llamada `refactor-countIntersections` con una pequeña optimizacion en el algoritmo. Una vez se cambie a dicha rama, podrá ver el cambio.
