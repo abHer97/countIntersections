@@ -1,15 +1,15 @@
 {
-  "name": "countintersections",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "abel",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.3.1"
-  }
+   "name": "countintersections",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "jest"
+   },
+   "keywords": [],
+   "author": "abel",
+   "license": "ISC",
+   "devDependencies": {
+      "jest": "^29.3.1"
+   }
 }
