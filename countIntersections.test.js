@@ -21,7 +21,7 @@ describe('countIntersections test suite', () => {
       expect(result).toEqual(expectedIntersections);
    });
 
-   it('should correctly calculate the intersections of segments for second example', () => {
+   it('should correctly calculate the intersections of segments for third example', () => {
       const startsAt = [3, 1, 5];
       const endsAt = [3, 5, 6];
       const expectedIntersections = [1, 2, 1];
