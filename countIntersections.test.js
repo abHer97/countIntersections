@@ -1,7 +1,7 @@
 const countIntersections = require('./index.js');
 
 describe('countIntersections test suite', () => {
-   it('should calculate correctly the intersections of segments from first example', () => {
+   it('should correctly calculate the intersections of segments for first example', () => {
       const startsAt = [1, 3];
       const endsAt = [4, 5];
       const expectedIntersections = [1, 1];
@@ -11,7 +11,7 @@ describe('countIntersections test suite', () => {
       expect(result).toEqual(expectedIntersections);
    });
 
-   it('should calculate correctly the intersections of segments from second example', () => {
+   it('should correctly calculate the intersections of segments for second example', () => {
       const startsAt = [1, 3];
       const endsAt = [5, 4];
       const expectedIntersections = [1, 1];
@@ -21,7 +21,7 @@ describe('countIntersections test suite', () => {
       expect(result).toEqual(expectedIntersections);
    });
 
-   it('should calculate correctly the intersections of segments from second example', () => {
+   it('should correctly calculate the intersections of segments for second example', () => {
       const startsAt = [3, 1, 5];
       const endsAt = [3, 5, 6];
       const expectedIntersections = [1, 2, 1];
